@@ -1,0 +1,1067 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ overflow: hidden;
+}
+
+/* -------------------------TEXT-------------------------- */
+/* general text */
+.page-title{
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: 4.724999904632568px;
+  text-align: left;
+  color: #ffffff;
+}
+.page-title span{
+  color: gray;
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  letter-spacing: 4.724999904632568px;
+  text-align: left;
+  padding-right: 24px;
+}
+/* home -text */
+.home h1 {
+  font-family: "Bellefair";
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 171.9px;
+  text-align: left;  
+}
+.home h2{
+font-family: "Barlow Condensed";
+font-size: 28px;
+font-weight: 400;
+line-height: 33.6px;
+letter-spacing: 4.724999904632568px;
+text-align: left;
+}
+.home p{
+font-family: "Barlow";
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+}
+.left h1{
+  font-family: "Bellefair";
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 171.9px;
+  text-align: left;
+}
+.left h2 {
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: 4.724999904632568px;
+  text-align: left;
+}
+.space-text {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  max-width: 440px;
+}
+/* destination -text */
+.distanceP, .travelP{
+  font-family: "Bellefair";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.09px;
+  text-align: left;
+  color: #ffffff;
+}
+.travel-p, .distance-p{
+  font-family: "Barlow Condensed";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2.362499952316284px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+/* planet description text */
+.destinationH{
+  font-family: "Bellefair";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 114.6px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+.destinationP{
+  font-family:"Barlow";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+  max-width: 440px;
+  height: 130px;
+  margin-bottom: 40px;
+}
+/* crew page text */
+.crew-role{
+  font-family: "Bellefair";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.67px;
+  text-align: left;
+  color: gray;
+  padding-bottom: 15px;
+}
+.crew-name{
+  font-family: "Bellefair";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64.18px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.crew-info{
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+  max-width: 440px;
+  height: 130px;
+  margin-bottom: 90px;
+}
+/* tech text */
+.tech-title{
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: 4.724999904632568px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 150px;
+  padding-top: 70px;
+}
+.terminology{
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 2.700000047683716px;
+  text-align: left;
+  color: #D0D6F9;
+}
+.shuttle-name{
+  font-family: "Bellefair";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64.18px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.shuttle-description{
+  max-width: 440px;
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+  min-height: 190px;
+}
+/* header */
+.header-btn-ham{
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2px;
+}
+/* ----------------------HEADER  (~￣³￣)~  ----------------------------- */
+header{
+  position: fixed;
+  padding-top: 50px;
+  display: block;
+  flex-direction: row;
+  width: 100%;
+}
+.header-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+.logo{
+  transition: all ease 1s;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+}
+.logo:hover{
+  box-shadow: 0px 0px 50px 25px rgba(255, 255, 255, 0.2);
+  transition: 0.4s ease-in-out;
+}
+/* navigation-div */
+.navigation-div{
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 40px 165px 40px 125px;
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line between header divs */
+.line{
+  position: absolute;
+  z-index: 1;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 52%;
+  margin-left: 100px;
+}
+/* header buttons */
+.header-btn{
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 2.700000047683716px;
+  text-align: left;
+  background: none;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding-bottom: 38px;
+}
+/* --------------------------------------------------- */
+/* home-divs */
+.home{
+  background-image: url(/assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+}
+/* home right side div- button */
+.explore{
+  margin-top: 300px;
+  font-family: "Bellefair";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.67px;
+  letter-spacing: 2px;
+  text-align: center;
+  height: 270px; 
+  width: 270px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  }
+.explore:hover{
+  box-shadow: 2px 2px 5px 85px rgba(255, 255, 255, 0.1);
+  transition: 0.4s ease-in-out;
+}
+/* home left side div - intro */
+.left{
+  color: #ffffff;
+  margin-top: 250px;
+  padding: 15px;
+}
+/* --------------------------------------------------- */
+/* content pages title */
+.title-div{
+  margin-top: 200px;
+  margin-right: 700px;
+  padding-right: 700px;
+  padding-left: 50px;
+  margin-left: auto;
+  width: 100%;
+}
+/* destinations page */
+.destination{
+  background-image: url(/assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-dest{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+/* right side div of destination page */
+.right-destination{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 50px;
+}
+/* mini header for planets */
+.nav-d{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-list-d{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 35px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.moon-btn, .mars-btn, .europa-btn, .titan-btn{
+  background: none;
+  border: none;
+  outline: none;
+  transition: all ease 1s;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+.moon-btn:hover, .mars-btn:hover, .europa-btn:hover, .titan-btn:hover{
+  border-bottom: rgba(255, 255, 255, 0.5) 3px solid;
+  transition: 0.1s ease-in-out;
+}
+.moon-btn:focus, .mars-btn:focus, .europa-btn:focus, .titan-btn:focus{
+  border-bottom: rgb(255, 255, 255) 3px solid;
+  transition: 0.1s ease-in-out;
+}
+.moon-btn:active, .mars-btn:active, .europa-btn:active, .titan-btn:active{
+  border-bottom: rgb(255, 255, 255) 3px solid;
+  transition: 0.1s ease-in-out;
+}
+/* planet divider line */
+.planetLine{
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* planet distance and avg time divs */
+.distance-travel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+/* left side div of the destination page */
+.destinationImage{
+  padding-left: 50px;
+}
+.left-destination{
+  margin-top: 50px;
+}
+/* --------------------------------------------------- */
+.crew{
+  background-image: url(/assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.content-crew{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+/* carrousel dots */
+.nav-list-crew{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.crew-data-0, .crew-data-1, .crew-data-2, .crew-data-3 {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer; 
+}
+.crew-data-0:active, .crew-data-1:active, .crew-data-2:active, .crew-data-3:active {
+  background-color: #ffffff;
+}
+.crew-data-0:focus, .crew-data-1:focus, .crew-data-2:focus, .crew-data-3:focus {
+  background-color: #ffffff;
+}
+.crew-data-0:hover, .crew-data-1:hover, .crew-data-2:hover, .crew-data-3:hover {
+  background-color: #bbb;
+}
+.nav-list-tech{
+  text-align: center;
+}
+/* crew img div */
+.imgdiv{
+  max-width: 500px;
+  max-height: 600px;
+}
+/*--------------------------------------------------------*/
+/* technologies divs */
+
+.technology{
+  background-image: url(/assets/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-tech{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding-left: 165px;
+  z-index: 1;
+}
+.left-tech-div{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+.nav-list-tech{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-list-tech{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.tech-data-0, .tech-data-1, .tech-data-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-family: "Bellefair";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.67px;
+  text-align: center;
+  color: #ffffff;
+}
+.tech-data-0:hover, .tech-data-1:hover, .tech-data-2:hover{
+border: 1px solid white;
+}
+
+.tech-data-0:active, .tech-data-1:active, .tech-data-2:active{
+  border: 1px solid white;
+  background-color: #ffffff;
+  color: black;
+}
+
+.tech-data-0:focus, .tech-data-1:focus, .tech-data-2:focus{
+  border: 1px solid white;
+  background-color: #ffffff;
+  color: black;
+}
+.tech-img{
+  max-width: 500px;
+}
+/* MEDIA Q --------------------------- ( • )( • ) ԅ(‾⌣‾ԅ) */
+
+@media (max-width: 1800px) {
+  /* header div media */
+  .line{
+     width: 50%;
+}
+
+
+}
+
+@media (max-width: 1700px) {
+  /* header div media */
+  .line{
+    width: 46%;
+
+  }
+}
+
+@media (max-width: 1600px) {
+  /* header div media */
+  .line{
+    width: 42%;
+  }
+
+}
+@media (max-width: 1500px) {
+  /* header div media */
+ .line{
+   width: 38%;
+ }
+
+}
+@media (max-width: 1400px) {
+  /* header div media */
+ .line{
+   display:  none;
+ }
+ .navigation-div{
+   padding: 40px 50px 40px 50px;
+ }
+}
+@media (max-width: 1300px) {
+  /* header div media */
+  header{
+    padding-top: 0px;
+  }
+
+}
+@media (max-width: 1200px) {
+  /* header div media/ general */
+  .title-div{
+    margin-top: 150px;
+    margin-right: 700px;
+    padding-right: 0px;
+    padding-left: 50px;
+    margin-left: auto;
+    width: 100%;
+  }
+  .nav-item span {
+    display: none;
+  }
+  /* home div media */
+  .left h1 {
+    text-align: center;
+  }
+  .left h2 {
+    text-align: center;
+    color: #D0D6F9;
+  }
+  .left p {
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #D0D6F9;
+    letter-spacing: 1px;
+  }
+  .home{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left{
+    margin-right: 0px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+  }
+  .explore{
+    margin-top: 0px;
+  }
+
+  /* destination div media */
+  .content-dest{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-destination {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+  .destinationImage{
+    padding: 0px;
+    padding-bottom: 50px;
+    width: 250px;
+  }
+  .left-destination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  .destinationH, .destinationP, .distance-p, .travel-p{
+    text-align: center;
+    color: #e4e7fa;
+  }
+  .distanceP, .travelP{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .planetLine{
+    width: 80%;
+  }
+
+  /* crew div area */
+  .content-crew{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-crew-div{
+    backdrop-filter: blur(3px);
+    width: 100%;
+  }
+  .crew-info-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .crew-info{
+    margin: 0px;
+    text-align: center;
+    max-width: 500px;
+  }
+  .navigation-div-crew{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-crew{
+    padding: 20px 0px 20px 0px;
+  }
+  .crew-img{
+    margin-top: 80px;
+    max-height: 430px;
+  }
+  .crew-name, .crew-role{
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  /* tech div area */
+  .content-tech{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .nav-list-tech{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+  }
+  .shuttle-name, .terminology{
+    text-align: center;
+  }
+  .shuttle-description{
+    max-height: 450px;
+    max-width: 560px;
+    text-align: center;
+  }
+  .left-tech-div{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+  .tech-img{
+    max-width: none;
+    width: 100%;
+    padding: 0px;
+  }
+  .imgdivTech{
+    height: 301px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 700px) {
+  #off-screen-menu{
+    display: none;
+  }
+  #boorgirHeader{
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    display: none;
+  }
+  .boorgirList .header-btn{
+    transition: all ease 1s;
+    color: #ffffff;
+    padding-bottom: 0px;
+  }
+  .boorgirList .header-btn:hover{
+    display: flex;
+    flex-direction: row;
+    border-right: rgba(255, 255, 255, 0.5) 3px solid;
+    transition: 0.1s ease-in-out;
+  }
+  .boorgirList .header-btn:focus{
+    border-right: rgba(255, 255, 255, 0.5) 3px solid;
+    transition: 0.1s ease-in-out;
+  }
+}
+
+@media (max-width:500px) {
+  /* general text/stuff */
+  .page-title, .page-title span{
+    font-size: 16px;
+  }
+  .title-div{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 100px;
+  }
+
+  /* home page */
+  .explore{
+    height: 150px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  .explore:hover{
+    box-shadow: 2px 2px 5px 35px rgba(255, 255, 255, 0.1);
+    transition: 0.4s ease-in-out;
+  }
+  .left {
+    padding-bottom: 80px;
+  }
+  .left p {
+    font-size: 15px;
+  }
+  .left h1{
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .left h2{
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  /* destination page */
+  .destination{
+    min-height: 850px;
+  }
+  .destinationImage{
+    width: 170px;
+  }
+  .destinationH{
+    font-size: 56px;
+    line-height: 64px;  
+  }
+  .destinationP {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0px 20px 0px 20px;
+  }
+  .nav-item-d{
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+  .distance-travel{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .planetLine{
+    width: 85%;
+  }
+  /* crew */
+  .content-crew{
+    flex-direction: column-reverse;
+  }
+  .left-crew-div{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .crew-img {
+    width: 170px;
+    height: 220px;
+    margin-top: 0px;
+  }
+  .imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #383B4B;
+    width: 80%;
+  }
+  .crew-role{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.34px;
+    text-align: center;
+  }
+  .crew-name{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-align: center;
+  }
+  .crew-info{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #D0D6F9;
+    padding: 0px 20px 0px 20px;
+  }
+  .crew-data-0, .crew-data-1, .crew-data-2, .crew-data-3{
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+  }
+  /* tech */
+  .shuttle-name{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px 0px 0px 10px;
+  }
+  .terminology{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .shuttle-description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #D0D6F9;
+    padding: 0px 20px 0px 20px;
+  }
+  .tech-data-0, .tech-data-1, .tech-data-2 {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    font-weight: 400; 
+  }
+  .nav-list-tech{
+    padding-bottom: 20px;
+  }
+  .imgdivTech{
+    height: 170px;
+    margin-bottom: 30px;
+  }
+}
+
+/* -----------------------🍔BORGIR  MENU🍔------------------ */
+⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣶⣿⣿⣿⣿⣿⣿⠿⠷⣶⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣯⣀⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀
+⠀⠀⠀⢠⣿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣁⣈⣽⣿⣷⡀⠀⠀⠀
+⠀⠀⠀⣿⣿⣶⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⢿⣧⠀⠀⠀
+⠀⠀⠀⠛⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠧⠤⠾⠿⠿⠿⠿⠿⠷⠶⠾⠟⠀⠀⠀
+⠀⠀⠀⢶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠶⠀⠀⠀
+⠀⠀⣠⣤⣤⣤⣤⣤⣤⣄⣀⣀⣈⣉⣉⣉⣀⣀⣀⣀⣀⣠⣤⣤⣤⣤⣤⣄⠀⠀
+⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+⠀⠀⢀⣤⣭⠉⠉⠉⢉⣉⡉⠉⠉⠉⣉⣉⠉⠉⠉⢉⣉⠉⠉⠉⢉⣭⣄⠀⠀⠀
+⠀⠰⡟⠁⠈⢷⣤⣴⠟⠉⠻⣄⣠⡾⠋⠙⠳⣤⣴⠟⠉⠳⣦⣠⡾⠃⠙⢷⡄⠀
+⠀⠀⠀⢀⣀⣀⣉⡀⠀⠀⠀⠈⠉⠀⠀⠀⣀⣈⣁⣀⣀⣀⣀⣉⣀⣀⠀⠀⠀⠀
+⠀⠀⠀⠛⠛⠛⠛⠛⠛⠻⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠛⠛⠛⠛⠛⠛⠛⠃⠀⠀
+⠀⠀⠀⢸⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⠀⠀
+
+.boorgirList {
+  gap: 0px;
+  text-align: left;
+  padding-left: 30px;
+  list-style: none;
+}
+.boorgirList li{
+ padding-bottom: 30px;
+ list-style: none;
+}
+.boorgirHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  width: 100%;
+  z-index: 6;
+}
+.boorgirLogo{
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+}
+.off-screen-menu {
+  background-color: #ffffff41;
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  width: 100%;
+  max-width: 255px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  transition: 0.3s ease;
+  overflow-y: auto;
+  z-index: 5;
+  padding: 120px 0px 0px 32px;
+}
+.off-screen-menu.active{
+  right: 0;
+}
+.boorgir{
+  padding: 1rem;
+  display: flex;
+}
+
+.ham-menu{
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  position: relative;
+  margin-right: 60px;
+}
+.ham-menu span {
+  height: 3px;
+  width: 100%;
+  background-color: #D0D6F9;
+  border-radius: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  transition: 0.3s ease;
+}
+.header-btn-ham:hover{
+  border-right: rgba(255, 255, 255, 0.5) 3px solid;
+  transition: 0.2s ease-in;
+}
+.header-btn-ham:focus{
+  border-right: rgba(255, 255, 255, 0.5) 3px solid;
+  transition: 0.2s ease-in;
+}
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+} 
+
+/* ----------------active buttons--------------- */
+.animationz {
+  position: relative;
+}
+
+.animationz::after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 1);
+  transition: 0.2s ease-in;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.animationz:hover::after {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.animationz.active-button::after {
+  width: 100%; 
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(255, 255, 255, 1);
+}

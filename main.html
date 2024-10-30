@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Space tourism website</title>
+</head>
+<body>
+  <!-- desktop header aka. header de monitor ptr cine nu stie -->
+<header class="header">
+  <div class="header-content">
+      <a href="#" class="logo" id="logoBtn">
+        <img src="/assets/shared/logo.svg" alt="">
+      </a>
+      <div class="line"></div>
+        <div class="navigation-div">
+            <nav class="nav">
+              <ul class="nav-list">
+                  <li class="nav-item">
+                    <a href="#" class="animationz header-btn" id="header-btn-home"><span><strong>00</strong></span> HOME</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="animationz header-btn" id="header-btn-dest"><span><strong>01</strong></span> DESTINATION</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="animationz header-btn" id="header-btn-crew"><span><strong>02</strong></span> CREW</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="animationz header-btn" id="header-btn-tech"><span><strong>03</strong></span> TECHNOLOGY</a>
+                  </li>
+              </ul>
+            </nav>
+            
+        </div>
+  </div>
+</header>
+
+<!-- off screen menu -->
+<div class="off-screen-menu" id="off-screen-menu">
+  <ul class="boorgirList">
+    <li >
+      <a href="#" class="header-btn-ham" id="bheader-btn-home"><span><strong>00</strong></span> HOME</a>
+    </li>
+
+    <li >
+      <a href="#" class="header-btn-ham" id="bheader-btn-dest"><span><strong>01</strong></span> DESTINATION</a>
+    </li>
+
+    <li >
+      <a href="#" class="header-btn-ham" id="bheader-btn-crew"><span><strong>02</strong></span> CREW</a>
+    </li>
+
+    <li >
+      <a href="#" class="header-btn-ham" id="bheader-btn-tech"><span><strong>03</strong></span> TECHNOLOGY</a>
+    </li>
+  </ul>
+</div>
+<!-- boorgir header ptr mobile. Also, da am scris boorgir pentru ca este funny si este dintr-un meme ⊂(▀¯▀⊂ ) -->
+<header class="boorgirHeader" id="boorgirHeader">
+  <a class="boorgirLogo" href="">
+    <img  src="/assets/shared/logo.svg" alt="">
+  </a>
+
+
+  <nav class="boorgir">
+    <div class="ham-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav> 
+
+
+</header>
+
+<!--------------------------- HOME------------------------------------------->
+
+<div class="home" id="home">
+
+  <!-- left side div of home -->
+
+  <div class="left">
+    <h2>SO, YOU WANT TO TRAVEL TO</h2>
+      <h1>SPACE</h1>
+        <p class="space-text"></p>
+  </div>
+
+  <!-- right side div of home -->
+
+  <div class="right">
+    <a href="#"><button class="explore" id="exploreBtn">EXPLORE</button></a>
+  </div>
+
+</div>
+
+
+<!-----------------------------DESTINATIONS----------------------------------------->
+
+<div class="destination" id="destination">
+  <!-- title, ala cu 01 ceve scris -->
+    <div class="title-div">
+      <p class="page-title"><span><strong>01</strong></span> PICK YOUR DESTINATION</p>
+    </div>
+
+    <!-- main div -->
+  <div class="content-dest">
+      
+    <!-- left div -->
+
+      <div class="left-destination" id="left-destination">
+        <img src="./assets/destination/" class="destinationImage" id="destinationImage">
+      </div>
+
+      <!-- right div -->
+
+      <div class="right-destination" id="right-destination">
+
+        <!-- planets nav -->
+         
+        <div class="navigation-div-planets" id="navigation-div-planets">
+            <nav class="nav-d" id="nav-d">
+                <ul class="nav-list-d">
+
+                    <li class="nav-item-d">
+                      <a href="" class="moon-btn" id="moon">MOON</a>
+                    </li>
+
+                    <li class="nav-item-d">
+                      <a href="" class="mars-btn" id="mars">MARS</a>
+                    </li>
+
+                    <li class="nav-item-d">
+                      <a href="" class="europa-btn" id="europa">EUROPA</a>
+                    </li>
+
+                    <li class="nav-item-d">
+                      <a href="" class="titan-btn" id="titan">TITAN</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- div cu date despre planete -->
+
+        <div class="planetData" id="planetData">
+            <h1 class="destinationH" id="destinationH"></h1>
+            <p class="destinationP" id="destinationP"></p>
+        </div>
+
+        <!-- linia despartitoare -->
+
+        <div class="planetLine" id="planetLine"></div>
+
+        <!-- bottom content -->
+        <div class="distance-travel" id="distance-travel">
+            <div class="distance" id="distance">
+                <p class="distance-p">AVG. DISTANCE</p>
+                <p class="distanceP" id="distanceP"></p>
+            </div>
+            <div class="travel" id="travel">
+                <p class="travel-p">EST. TRAVEL TIME</p>
+                <p class="travelP" id="travelP"></p>
+            </div>
+        </div>
+
+      </div>
+  </div>
+
+</div>
+
+<!---------------------------CREW------------------------------------------->
+
+<div class="crew" id="crew">
+  <!-- title, ala cu 02 ceve scris -->
+    <div class="title-div">
+      <h3 class="page-title"><span>02</span>MEET YOUR CREW</h3>
+    </div>
+
+    <!-- main content -->
+
+  <div class="content-crew">
+
+    <!-- left div -->
+
+    <div class="left-crew-div" id="left-crew-div">
+
+      <div class="crew-info-div" id="crew-info-div">
+
+          <h2 class="crew-role" id="crew-role"></h2>
+          <h1 class="crew-name" id="crew-name"></h1>
+
+          <p class="crew-info" id="crew-info"></p>
+
+      </div>
+
+      <!-- div cu navigatia la crew -->
+
+      <div class="navigation-div-crew" id="navigation-div-crew">
+          <nav class="nav-crew" id="nav-crew">
+              <ul class="nav-list-crew">
+
+                  <li class="nav-item-crew">
+                    <a href="#" class="crew-data-0" id="crew-data-0"></a>
+                  </li>
+
+                  <li class="nav-item-crew">
+                    <a href="#" class="crew-data-1" id="crew-data-1"></a>
+                  </li>
+
+                  <li class="nav-item-crew">
+                    <a href="#" class="crew-data-2" id="crew-data-2"></a>
+                  </li>
+
+                  <li class="nav-item-crew">
+                    <a href="#" class="crew-data-3" id="crew-data-3"></a>
+                  </li>
+
+              </ul>
+          </nav>
+      </div>
+
+
+    </div>
+
+    <!-- roght div, adica ala cu poza -->
+
+    <div class="imgdiv" id="imgdiv">
+        <img class="crew-img" src="" alt="">
+    </div>
+
+  </div>
+
+</div>
+
+<!------------------------------TECH---------------------------------------->
+
+<div class="technology" id="technology">
+  <!-- title, ala cu 03 ceve scris -->
+    <div class="title-div">
+      <h3 class="page-title"><span>03</span>SPACE LAUNCH 101</h3>
+    </div>
+
+    <!-- main div -->
+
+  <div class="content-tech">
+
+    <!-- left div -->
+
+    <div class="left-tech-div" id="left-tech-div">
+      <div>
+        <div class="tech-info-div" id="tech-info-div">
+  
+            <h2 class="terminology" id="terminology">THE TERMINOLOGY ...</h2>
+            <h1 class="shuttle-name" id="shuttle-name"></h1>
+  
+            <p class="shuttle-description" id="shuttle-description"></p>
+  
+        </div>
+      </div>
+  
+      <div class="navigation-div-tech" id="navigation-div-tech">
+          <nav class="nav-tech" id="nav-tech">
+              <ul class="nav-list-tech">
+  
+                  <li class="nav-item-tech">
+                    <a href="" class="tech-data-0" id="tech-data-0">1</a>
+                  </li>
+  
+                  <li class="nav-item-tech">
+                    <a href="" class="tech-data-1" id="tech-data-1">2</a>
+                  </li>
+  
+                  <li class="nav-item-tech">
+                    <a href="" class="tech-data-2" id="tech-data-2">3</a>
+                  </li>
+  
+              </ul>
+          </nav>
+      </div>
+  
+  
+    </div>
+  
+    <!-- right div -->
+  
+    <div class="imgdivTech" id="imgdivTech">
+        <img class="tech-img" src="./assets/technology" alt="">
+    </div>
+
+  </div>
+
+
+</div>
+
+<!-- js script  ᕦ⊙෴⊙ᕤ -->
+<script src="/js/exe.js" defer></script>
+
+
+</body>
+</html>
+
+
